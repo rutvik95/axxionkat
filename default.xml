@@ -11,6 +11,9 @@
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
+           
+  <remote  name="axxion"
+           fetch="https://github.com/AxxionKat" />
 
   <default revision="refs/heads/cm-11.0"
            remote="github"
