@@ -4,7 +4,7 @@ AxxionKat
 To get started with Axxion manifest, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
+To initialize your local repository using the AxxionKat trees, use a command like this:
 
     repo init -u git://github.com/AxxionKat/axxion.git -b cm-11.0
 
@@ -12,6 +12,10 @@ Then to sync up:
 
     repo sync
 
+To build just:
+. build/envsetup.sh
+lunch
+time make -j# otapackage (replace # with 4 if you have a quad core or with 3 if you have dual)
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
 
 For more information on this Github Organization and how it is structured, 
