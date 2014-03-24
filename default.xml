@@ -351,7 +351,6 @@
   <project path="packages/apps/Camera2" name="AxxionKat/android_packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="AxxionKat/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="AxxionKat/android_packages_apps_CertInstaller" />
-  <project path="packages/apps/CMAccount" name="AxxionKat/android_packages_apps_CMAccount" />
   <project path="packages/apps/CMFileManager" name="AxxionKat/android_packages_apps_CMFileManager" />
   <project path="packages/apps/CMUpdater" name="AxxionKat/android_packages_apps_CMUpdater" />
   <project path="packages/apps/CMWallpapers" name="AxxionKat/android_packages_apps_CMWallpapers" />
