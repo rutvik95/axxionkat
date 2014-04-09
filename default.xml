@@ -29,13 +29,13 @@
 
   <project path="android" name="AxxionKat/android" />
 
-  <project path="abi/cpp" name="AxxionKat/android_abi_cpp" groups="pdk" />
-  <project path="art" name="AxxionKat/android_art" />
+  <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
+  <project path="art" name="Cyanogenmod/android_art" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.2_r1" groups="cts" />
-  <project path="dalvik" name="AxxionKat/android_dalvik" />
+  <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
@@ -162,9 +162,9 @@
   <project path="external/junit" name="CyanogenMod/android_external_junit" />
   <project path="external/kernel-headers" name="CyanogenMod/android_external_kernel-headers" />
   <project path="external/kissfft" name="CyanogenMod/android_external_kissfft" />
-  <project path="external/koush/ion" name="AxxionKat/ion" />
+  <project path="external/koush/ion" name="CyanogenMod/ion" />
   <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" />
-  <project path="external/koush/Superuser" name="AxxionKat/Superuser" />
+  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" />
   <project path="external/libcap-ng" name="CyanogenMod/android_external_libcap-ng" />
   <project path="external/libffi" name="CyanogenMod/android_external_libffi" />
@@ -278,7 +278,7 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
-  <project path="frameworks/av" name="AxxionKat/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="AxxionKat/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
@@ -303,7 +303,7 @@
   <project path="frameworks/opt/telephony-msim" name="CyanogenMod/android_frameworks_opt_telephony-msim" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" />
-  <project path="frameworks/support" name="AxxionKat/android_frameworks_support" />
+  <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" />
   <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="frameworks/volley" name="CyanogenMod/android_frameworks_volley" />
@@ -341,58 +341,58 @@
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="packages/apps/Apollo" name="AxxionKat/android_packages_apps_Apollo" />
-  <project path="packages/apps/BasicSmsReceiver" name="AxxionKat/android_packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="AxxionKat/android_packages_apps_Bluetooth" />
-  <project path="packages/apps/BluetoothExt" name="AxxionKat/android_packages_apps_BluetoothExt" />
-  <project path="packages/apps/Browser" name="AxxionKat/android_packages_apps_Browser" />
-  <project path="packages/apps/Calculator" name="AxxionKat/android_packages_apps_Calculator" />
-  <project path="packages/apps/Calendar" name="AxxionKat/android_packages_apps_Calendar" />
+  <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
+  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
+  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
+  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
+  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
+  <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
   <project path="packages/apps/Camera2" name="AxxionKat/android_packages_apps_Camera2" />
-  <project path="packages/apps/CellBroadcastReceiver" name="AxxionKat/android_packages_apps_CellBroadcastReceiver" />
-  <project path="packages/apps/CertInstaller" name="AxxionKat/android_packages_apps_CertInstaller" />
-  <project path="packages/apps/CMFileManager" name="AxxionKat/android_packages_apps_CMFileManager" />
+  <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
+  <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
+  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
   <project path="packages/apps/CMUpdater" name="AxxionKat/android_packages_apps_CMUpdater" />
   <project path="packages/apps/CMWallpapers" name="AxxionKat/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/Contacts" name="AxxionKat/android_packages_apps_Contacts" />
-  <project path="packages/apps/ContactsCommon" name="AxxionKat/android_packages_apps_ContactsCommon" />
-  <project path="packages/apps/DeskClock" name="AxxionKat/android_packages_apps_DeskClock" />
+  <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
+  <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
   <project path="packages/apps/Dialer" name="AxxionKat/android_packages_apps_Dialer" />
-  <project path="packages/apps/DSPManager" name="AxxionKat/android_packages_apps_DSPManager" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
   <project path="packages/apps/Email" name="AxxionKat/android_packages_apps_Email" />
-  <project path="packages/apps/Exchange" name="AxxionKat/android_packages_apps_Exchange" />
-  <project path="packages/apps/Gallery2" name="AxxionKat/android_packages_apps_Gallery2" />
-  <project path="packages/apps/HTMLViewer" name="AxxionKat/android_packages_apps_HTMLViewer" />
+  <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
+  <project path="packages/apps/Gallery2" name="Cyanogenmod/android_packages_apps_Gallery2" />
+  <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="AxxionKat/android_packages_apps_InCallUI" />
-  <project path="packages/apps/KeyChain" name="AxxionKat/android_packages_apps_KeyChain" />
-  <project path="packages/apps/LockClock" name="AxxionKat/android_packages_apps_LockClock" />
+  <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
+  <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
   <project path="packages/apps/Mms" name="AxxionKat/android_packages_apps_Mms" />
-  <project path="packages/apps/Nfc" name="AxxionKat/android_packages_apps_Nfc" />
+  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
-  <project path="packages/apps/PackageInstaller" name="AxxionKat/android_packages_apps_PackageInstaller" />
-  <project path="packages/apps/PhoneCommon" name="AxxionKat/android_packages_apps_PhoneCommon" />
-  <project path="packages/apps/Provision" name="AxxionKat/android_packages_apps_Provision" />
-  <project path="packages/apps/QuickSearchBox" name="AxxionKat/android_packages_apps_QuickSearchBox" />
+  <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
+  <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
+  <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
+  <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
   <project path="packages/apps/Settings" name="AxxionKat/android_packages_apps_Settings" />
-  <project path="packages/apps/SmartCardService" name="AxxionKat/android_packages_apps_SmartCardService" />
-  <project path="packages/apps/SoundRecorder" name="AxxionKat/android_packages_apps_SoundRecorder" />
-  <project path="packages/apps/SpeechRecorder" name="AxxionKat/android_packages_apps_SpeechRecorder" />
-  <project path="packages/apps/Stk" name="AxxionKat/android_packages_apps_Stk" />
-  <project path="packages/apps/Tag" name="AxxionKat/android_packages_apps_Tag" />
-  <project path="packages/apps/UnifiedEmail" name="AxxionKat/android_packages_apps_UnifiedEmail" />
-  <project path="packages/apps/Torch" name="AxxionKat/android_packages_apps_Torch" />
-  <project path="packages/apps/Trebuchet" name="AxxionKat/android_packages_apps_Trebuchet" />
-  <project path="packages/apps/VideoEditor" name="AxxionKat/android_packages_apps_VideoEditor" />
+  <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
+  <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
+  <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
+  <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
+  <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
+  <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
+  <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />
+  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
+  <project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="AxxionKat/android_packages_apps_VoiceDialer" />
-  <project path="packages/apps/VoicePlus" name="AxxionKat/android_packages_apps_VoicePlus" />
+  <project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
   <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="CyanogenMod/android_packages_inputmethods_PinyinIME" />
-  <project path="packages/providers/ApplicationsProvider" name="AxxionKat/android_packages_providers_ApplicationsProvider" />
-  <project path="packages/providers/CalendarProvider" name="AxxionKat/android_packages_providers_CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="AxxionKat/android_packages_providers_ContactsProvider" />
-  <project path="packages/providers/DownloadProvider" name="AxxionKat/android_packages_providers_DownloadProvider" />
-  <project path="packages/providers/MediaProvider" name="AxxionKat/android_packages_providers_MediaProvider" />
+  <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
+  <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
+  <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" />
+  <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" />
+  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" />
