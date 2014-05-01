@@ -25,6 +25,10 @@
   <remote  name="tm"
            fetch="https://github.com/TheMuppets" />
 
+  <!-- LiquidSmooth -->
+  <remote  name="ln"
+           fetch="git://android.git.linaro.org/" />
+           
   <default revision="refs/heads/cm-11.0"
            remote="github"
            sync-c="true"
@@ -35,7 +39,6 @@
   </project>
 
   <project path="android" name="AxxionKat/android" />
-
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="Cyanogenmod/android_art" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
