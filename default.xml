@@ -4,22 +4,29 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
-pa
+
+  <!-- Github -->
   <remote  name="github"
            fetch="https://github.com/" />
            
-  <remote  name="cyanogenmod"
-           fetch=".."
-           review="review.cyanogenmod.org" />
-                    
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
-           
+  <!-- AxxionKat -->
   <remote  name="axxion"
            fetch="https://github.com/AxxionKat" />
 
+  <!-- OSE -->
+ <remote  name="ose"
+           fetch="https://github.com/Team-OSE" />
+
+  <!-- CM -->
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod" />
+
+  <!-- The Muppets -->
+  <remote  name="tm"
+           fetch="https://github.com/TheMuppets" />
+
   <default revision="refs/heads/cm-11.0"
-           remote="github"
+           remote="axxion"
            sync-c="true"
            sync-j="4" />
 
@@ -379,6 +386,8 @@ pa
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
+  <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="ose" revision="cm-11.0" />
+  <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" remote="ose" revision="cm-11.0" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor" />
@@ -475,7 +484,4 @@ pa
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="vendor/axxion" name="AxxionKat/android_vendor_axxion" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
-  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
 </manifest>
