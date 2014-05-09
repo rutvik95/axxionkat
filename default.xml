@@ -26,7 +26,7 @@
            fetch="https://github.com/TheMuppets" />
 
   <default revision="refs/heads/cm-11.0"
-           remote="axxion"
+           remote="github"
            sync-c="true"
            sync-j="4" />
 
